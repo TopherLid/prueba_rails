@@ -4,11 +4,13 @@ class TweetsController < ApplicationController
   # GET /tweets or /tweets.json
   def index
     if params[:search]
-      @tweets = Tweet.where('description LIKE ?', "%#{params[:search]}%")
+      @tweets = Tweet.where("username ILIKE ?", "%#{params[:search]}%").paginate(page: params[:page], per_page: 10)
     else
-      @tweets = Tweet.all
+      @tweets = Tweet.paginate(page: params[:page], per_page: 10)
     end
   end
+
+  
 
   # GET /tweets/1 or /tweets/1.json
   def show
