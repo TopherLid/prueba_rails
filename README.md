@@ -1,24 +1,13 @@
-# README
+# Prueba de Rails para el bootcamp de "Ruby on Rails para Startups"
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Este proyecto está enfocado a cubrir la necesidad otorgada a través de la prueba 1, la cual, solicitaba crear un clon de twitter, mostrando los twits y los usuarios que éste tiene.
+Configuraciones y características del proyecto:
 
-Things you may want to cover:
+* Ruby 3.1.1
+* Rails 7.0
 
-* Ruby version
+* Gemas:  Faker, Will_paginate, Sprockets, pg
 
-* System dependencies
+* Database: PostGreSQL
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Las credenciales son de prueba local, modificar el usuario y contraseña en ./config/database.yml

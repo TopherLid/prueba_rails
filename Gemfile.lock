@@ -77,6 +77,8 @@ GEM
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 2.11.6, < 3)
       sassc-rails (>= 2.0.0)
+    bootstrap_pagination (1.0.2)
+      will_paginate (>= 3.0.3)
     builder (3.2.4)
     capybara (3.39.1)
       addressable
@@ -232,6 +234,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   bootstrap
+  bootstrap_pagination
   capybara
   debug
   faker

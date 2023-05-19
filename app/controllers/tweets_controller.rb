@@ -10,8 +10,6 @@ class TweetsController < ApplicationController
     end
   end
 
-  
-
   # GET /tweets/1 or /tweets/1.json
   def show
   end
